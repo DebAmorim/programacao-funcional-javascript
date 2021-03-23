@@ -1,7 +1,7 @@
 # programacao-funcional-javascript
 
 <h1 align="center">
-    <img alt="JavaScript" title="#jsFuncionalReativo" src="imagens/f_js.jpg" width="300px" />
+    <img alt="JavaScript" title="#jsFuncional" src="imagens/f_js.png" width="300px" />
 </h1>
 
 
