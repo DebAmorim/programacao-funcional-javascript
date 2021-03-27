@@ -7,11 +7,11 @@ function eager(a, b){
     return valor + b;
 }
 
-console.time('#01');
-console.log(eager(2,3));
-console.log(eager(2,3));
-console.log(eager(2,3));
-console.timeEnd('#01');
+// console.time('#01');
+// console.log(eager(2,3));
+// console.log(eager(2,3));
+// console.log(eager(2,3));
+// console.timeEnd('#01');
 
 // aplicando currying à função eager
 function lazy(a){
@@ -25,11 +25,11 @@ function lazy(a){
     }
 }
 
-console.time('#2')
-console.log(lazy(3)(100))
-console.log(lazy(3)(200))
-console.log(lazy(3)(300))
-console.timeEnd('#2')
+// console.time('#2')
+// console.log(lazy(3)(100))
+// console.log(lazy(3)(200))
+// console.log(lazy(3)(300))
+// console.timeEnd('#2')
 
 
 console.time('#3')

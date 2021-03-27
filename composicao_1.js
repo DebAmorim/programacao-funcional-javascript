@@ -34,7 +34,7 @@ const resultado = composicao2(
     tornarMaiuscula,
     enfatizarTexto,
     separarTexto
-    )('quemassa')
+    )('que massa')
 
 console.log(resultado)
 

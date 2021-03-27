@@ -10,8 +10,8 @@ function multiplicar(a, b){
     return a * b;
 }
 
-// console.log(executar(somar, 1,3,8));
-// console.log(executar(multiplicar, 9,3));
+console.log(executar(somar, 1,3,8));
+console.log(executar(multiplicar, 9,3));
 
 
 function executar2(fn, ...params){

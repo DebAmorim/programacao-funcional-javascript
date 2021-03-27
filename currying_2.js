@@ -1,5 +1,5 @@
-function textoComTamanhoEntre(max){
-    return function(min){
+function textoComTamanhoEntre(min){
+    return function(max){
         return function (erro){
             return function(texto){
                 const tamanho = (texto || '').trim().length;
@@ -11,9 +11,10 @@ function textoComTamanhoEntre(max){
     }
 }
 
-const forcarTamanhoPadrao = textoComTamanhoEntre(4)(255)
+const forcarTamanhoPadrao = textoComTamanhoEntre(2)(255)
+const forcarTamanhoPadraoMaior = textoComTamanhoEntre(10)(255)
 const forcarNomeProdutoValido = forcarTamanhoPadrao('Nome inválido')
 
-const produto1 = {nome:'A', preco:18.99, desconto: 0.05}
+const produto1 = {nome:'caderno', preco:18.99, desconto: 0.05}
 forcarNomeProdutoValido(produto1.nome);
 
